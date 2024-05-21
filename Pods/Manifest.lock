@@ -1,0 +1,20 @@
+PODS:
+  - BlueSocket (2.0.4)
+  - SwiftCollections (0.2.0)
+
+DEPENDENCIES:
+  - BlueSocket
+  - SwiftCollections
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - BlueSocket
+    - SwiftCollections
+
+SPEC CHECKSUMS:
+  BlueSocket: cc33e2bded4b680ff14200b4160ed459602b9205
+  SwiftCollections: 037a4d771299166ba843aa07a3e8285ac2a6d720
+
+PODFILE CHECKSUM: 12dd7e3a50b9fbc6dd055e01b8c1a472cda9212c
+
+COCOAPODS: 1.15.2

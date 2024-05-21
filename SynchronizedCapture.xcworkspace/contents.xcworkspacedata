@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SynchronizedCapture.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Pods"
+      name = "Targets Support Files">
+      <Group
+         location = "group:Pods/Target Support Files/Pods-SynchronizedCapture"
+         name = "Pods-SynchronizedCapture">
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture.modulemap">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture-acknowledgements.markdown">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture-acknowledgements.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture-dummy.m">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture-frameworks.sh">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture-umbrella.h">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture.debug.xcconfig">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture.release.xcconfig">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Pods/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests"
+         name = "Pods-SynchronizedCapture-SynchronizedCaptureUITests">
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests.modulemap">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests-acknowledgements.markdown">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests-acknowledgements.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests-dummy.m">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests-frameworks.sh">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests-umbrella.h">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests.debug.xcconfig">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests.release.xcconfig">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Pods/Target Support Files/Pods-SynchronizedCaptureTests"
+         name = "Pods-SynchronizedCaptureTests">
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCaptureTests/Pods-SynchronizedCaptureTests.modulemap">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCaptureTests/Pods-SynchronizedCaptureTests-acknowledgements.markdown">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCaptureTests/Pods-SynchronizedCaptureTests-acknowledgements.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCaptureTests/Pods-SynchronizedCaptureTests-dummy.m">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCaptureTests/Pods-SynchronizedCaptureTests-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCaptureTests/Pods-SynchronizedCaptureTests-umbrella.h">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCaptureTests/Pods-SynchronizedCaptureTests.debug.xcconfig">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-SynchronizedCaptureTests/Pods-SynchronizedCaptureTests.release.xcconfig">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

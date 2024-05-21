@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042FC3362BCE8D2300E0153B /* SynchronizedCaptureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FC3352BCE8D2300E0153B /* SynchronizedCaptureApp.swift */; };
+		042FC3382BCE8D2300E0153B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FC3372BCE8D2300E0153B /* ContentView.swift */; };
+		042FC33A2BCE8D2500E0153B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042FC3392BCE8D2500E0153B /* Assets.xcassets */; };
+		042FC33D2BCE8D2500E0153B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042FC33C2BCE8D2500E0153B /* Preview Assets.xcassets */; };
+		042FC3472BCE8D2500E0153B /* SynchronizedCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FC3462BCE8D2500E0153B /* SynchronizedCaptureTests.swift */; };
+		042FC3512BCE8D2500E0153B /* SynchronizedCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FC3502BCE8D2500E0153B /* SynchronizedCaptureUITests.swift */; };
+		042FC3532BCE8D2500E0153B /* SynchronizedCaptureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042FC3522BCE8D2500E0153B /* SynchronizedCaptureUITestsLaunchTests.swift */; };
+		044B00C02BCF731F00DB2136 /* Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B00BF2BCF731F00DB2136 /* Leader.swift */; };
+		044B00C22BCF733D00DB2136 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B00C12BCF733D00DB2136 /* Client.swift */; };
+		044B00C42BCF742300DB2136 /* SntpBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B00C32BCF742300DB2136 /* SntpBase.swift */; };
+		044B00C62BCF8E4200DB2136 /* SyncConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B00C52BCF8E4200DB2136 /* SyncConstants.swift */; };
+		044B00C82BCFA48F00DB2136 /* ClientInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B00C72BCFA48F00DB2136 /* ClientInfo.swift */; };
+		047F870F2BCFF25B0093B5FB /* SntpOffsetResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F870E2BCFF25B0093B5FB /* SntpOffsetResponse.swift */; };
+		04848D432BD28DAC00106A9C /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04848D422BD28DAC00106A9C /* CameraController.swift */; };
+		04848D452BD3542B00106A9C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04848D442BD3542B00106A9C /* ImageView.swift */; };
+		05D5F4CF4BEED37F00F19BC9 /* Pods_SynchronizedCaptureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD109DB8A515DF7427FB9BD /* Pods_SynchronizedCaptureTests.framework */; };
+		BB53B7AF1EAE63AF5FD5F902 /* Pods_SynchronizedCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BD6E9F204E6B032F965D25 /* Pods_SynchronizedCapture.framework */; };
+		DFF4C60E349053C88A691DCE /* Pods_SynchronizedCapture_SynchronizedCaptureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531C20C775CE07342A38B931 /* Pods_SynchronizedCapture_SynchronizedCaptureUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042FC3432BCE8D2500E0153B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042FC32A2BCE8D2300E0153B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042FC3312BCE8D2300E0153B;
+			remoteInfo = SynchronizedCapture;
+		};
+		042FC34D2BCE8D2500E0153B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 042FC32A2BCE8D2300E0153B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 042FC3312BCE8D2300E0153B;
+			remoteInfo = SynchronizedCapture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040CA4052BDDED5100E4FEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04227A84125A533404B6EA85 /* Pods-SynchronizedCapture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynchronizedCapture.release.xcconfig"; path = "Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture.release.xcconfig"; sourceTree = "<group>"; };
+		042FC3322BCE8D2300E0153B /* SynchronizedCapture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynchronizedCapture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042FC3352BCE8D2300E0153B /* SynchronizedCaptureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedCaptureApp.swift; sourceTree = "<group>"; };
+		042FC3372BCE8D2300E0153B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		042FC3392BCE8D2500E0153B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042FC33C2BCE8D2500E0153B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		042FC3422BCE8D2500E0153B /* SynchronizedCaptureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynchronizedCaptureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042FC3462BCE8D2500E0153B /* SynchronizedCaptureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedCaptureTests.swift; sourceTree = "<group>"; };
+		042FC34C2BCE8D2500E0153B /* SynchronizedCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynchronizedCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		042FC3502BCE8D2500E0153B /* SynchronizedCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedCaptureUITests.swift; sourceTree = "<group>"; };
+		042FC3522BCE8D2500E0153B /* SynchronizedCaptureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedCaptureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		044B00BF2BCF731F00DB2136 /* Leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leader.swift; sourceTree = "<group>"; };
+		044B00C12BCF733D00DB2136 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		044B00C32BCF742300DB2136 /* SntpBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SntpBase.swift; sourceTree = "<group>"; };
+		044B00C52BCF8E4200DB2136 /* SyncConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncConstants.swift; sourceTree = "<group>"; };
+		044B00C72BCFA48F00DB2136 /* ClientInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientInfo.swift; sourceTree = "<group>"; };
+		047F870E2BCFF25B0093B5FB /* SntpOffsetResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SntpOffsetResponse.swift; sourceTree = "<group>"; };
+		04848D422BD28DAC00106A9C /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		04848D442BD3542B00106A9C /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		0C39F21F24D3E3AFCA85BC6E /* Pods-SynchronizedCapture-SynchronizedCaptureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynchronizedCapture-SynchronizedCaptureUITests.debug.xcconfig"; path = "Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E1E81607846AA792E80A2A8 /* Pods-SynchronizedCapture-SynchronizedCaptureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynchronizedCapture-SynchronizedCaptureUITests.release.xcconfig"; path = "Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F04D970A9B864A3E54E3FE5 /* Pods-SynchronizedCapture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynchronizedCapture.debug.xcconfig"; path = "Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture.debug.xcconfig"; sourceTree = "<group>"; };
+		1BD109DB8A515DF7427FB9BD /* Pods_SynchronizedCaptureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SynchronizedCaptureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		531C20C775CE07342A38B931 /* Pods_SynchronizedCapture_SynchronizedCaptureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SynchronizedCapture_SynchronizedCaptureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		940220BBD715AC8EBF87C4DA /* Pods-SynchronizedCaptureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynchronizedCaptureTests.release.xcconfig"; path = "Target Support Files/Pods-SynchronizedCaptureTests/Pods-SynchronizedCaptureTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6BD6E9F204E6B032F965D25 /* Pods_SynchronizedCapture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SynchronizedCapture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F44C1F45B41FFF5F2693B6 /* Pods-SynchronizedCaptureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynchronizedCaptureTests.debug.xcconfig"; path = "Target Support Files/Pods-SynchronizedCaptureTests/Pods-SynchronizedCaptureTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042FC32F2BCE8D2300E0153B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB53B7AF1EAE63AF5FD5F902 /* Pods_SynchronizedCapture.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FC33F2BCE8D2500E0153B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D5F4CF4BEED37F00F19BC9 /* Pods_SynchronizedCaptureTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FC3492BCE8D2500E0153B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF4C60E349053C88A691DCE /* Pods_SynchronizedCapture_SynchronizedCaptureUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042FC3292BCE8D2300E0153B = {
+			isa = PBXGroup;
+			children = (
+				042FC3342BCE8D2300E0153B /* SynchronizedCapture */,
+				042FC3452BCE8D2500E0153B /* SynchronizedCaptureTests */,
+				042FC34F2BCE8D2500E0153B /* SynchronizedCaptureUITests */,
+				042FC3332BCE8D2300E0153B /* Products */,
+				76EF0C9ABEE154A3C4D4DE3F /* Pods */,
+				EC1F0F4A81096DD9A51820F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		042FC3332BCE8D2300E0153B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042FC3322BCE8D2300E0153B /* SynchronizedCapture.app */,
+				042FC3422BCE8D2500E0153B /* SynchronizedCaptureTests.xctest */,
+				042FC34C2BCE8D2500E0153B /* SynchronizedCaptureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042FC3342BCE8D2300E0153B /* SynchronizedCapture */ = {
+			isa = PBXGroup;
+			children = (
+				040CA4052BDDED5100E4FEA1 /* Info.plist */,
+				042FC3352BCE8D2300E0153B /* SynchronizedCaptureApp.swift */,
+				042FC3372BCE8D2300E0153B /* ContentView.swift */,
+				042FC3392BCE8D2500E0153B /* Assets.xcassets */,
+				044B00C32BCF742300DB2136 /* SntpBase.swift */,
+				044B00BF2BCF731F00DB2136 /* Leader.swift */,
+				044B00C12BCF733D00DB2136 /* Client.swift */,
+				044B00C52BCF8E4200DB2136 /* SyncConstants.swift */,
+				042FC33B2BCE8D2500E0153B /* Preview Content */,
+				044B00C72BCFA48F00DB2136 /* ClientInfo.swift */,
+				047F870E2BCFF25B0093B5FB /* SntpOffsetResponse.swift */,
+				04848D422BD28DAC00106A9C /* CameraController.swift */,
+				04848D442BD3542B00106A9C /* ImageView.swift */,
+			);
+			path = SynchronizedCapture;
+			sourceTree = "<group>";
+		};
+		042FC33B2BCE8D2500E0153B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				042FC33C2BCE8D2500E0153B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		042FC3452BCE8D2500E0153B /* SynchronizedCaptureTests */ = {
+			isa = PBXGroup;
+			children = (
+				042FC3462BCE8D2500E0153B /* SynchronizedCaptureTests.swift */,
+			);
+			path = SynchronizedCaptureTests;
+			sourceTree = "<group>";
+		};
+		042FC34F2BCE8D2500E0153B /* SynchronizedCaptureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				042FC3502BCE8D2500E0153B /* SynchronizedCaptureUITests.swift */,
+				042FC3522BCE8D2500E0153B /* SynchronizedCaptureUITestsLaunchTests.swift */,
+			);
+			path = SynchronizedCaptureUITests;
+			sourceTree = "<group>";
+		};
+		76EF0C9ABEE154A3C4D4DE3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F04D970A9B864A3E54E3FE5 /* Pods-SynchronizedCapture.debug.xcconfig */,
+				04227A84125A533404B6EA85 /* Pods-SynchronizedCapture.release.xcconfig */,
+				0C39F21F24D3E3AFCA85BC6E /* Pods-SynchronizedCapture-SynchronizedCaptureUITests.debug.xcconfig */,
+				0E1E81607846AA792E80A2A8 /* Pods-SynchronizedCapture-SynchronizedCaptureUITests.release.xcconfig */,
+				D5F44C1F45B41FFF5F2693B6 /* Pods-SynchronizedCaptureTests.debug.xcconfig */,
+				940220BBD715AC8EBF87C4DA /* Pods-SynchronizedCaptureTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC1F0F4A81096DD9A51820F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6BD6E9F204E6B032F965D25 /* Pods_SynchronizedCapture.framework */,
+				531C20C775CE07342A38B931 /* Pods_SynchronizedCapture_SynchronizedCaptureUITests.framework */,
+				1BD109DB8A515DF7427FB9BD /* Pods_SynchronizedCaptureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042FC3312BCE8D2300E0153B /* SynchronizedCapture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042FC3562BCE8D2500E0153B /* Build configuration list for PBXNativeTarget "SynchronizedCapture" */;
+			buildPhases = (
+				C3CBA49F2240F5D098F892D7 /* [CP] Check Pods Manifest.lock */,
+				042FC32E2BCE8D2300E0153B /* Sources */,
+				042FC32F2BCE8D2300E0153B /* Frameworks */,
+				042FC3302BCE8D2300E0153B /* Resources */,
+				00D404743ABAEACDF0244AFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SynchronizedCapture;
+			productName = SynchronizedCapture;
+			productReference = 042FC3322BCE8D2300E0153B /* SynchronizedCapture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		042FC3412BCE8D2500E0153B /* SynchronizedCaptureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042FC3592BCE8D2500E0153B /* Build configuration list for PBXNativeTarget "SynchronizedCaptureTests" */;
+			buildPhases = (
+				A487B398457E984549DDC436 /* [CP] Check Pods Manifest.lock */,
+				042FC33E2BCE8D2500E0153B /* Sources */,
+				042FC33F2BCE8D2500E0153B /* Frameworks */,
+				042FC3402BCE8D2500E0153B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042FC3442BCE8D2500E0153B /* PBXTargetDependency */,
+			);
+			name = SynchronizedCaptureTests;
+			productName = SynchronizedCaptureTests;
+			productReference = 042FC3422BCE8D2500E0153B /* SynchronizedCaptureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		042FC34B2BCE8D2500E0153B /* SynchronizedCaptureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042FC35C2BCE8D2500E0153B /* Build configuration list for PBXNativeTarget "SynchronizedCaptureUITests" */;
+			buildPhases = (
+				06F7D24E5494E13C97C4EE2D /* [CP] Check Pods Manifest.lock */,
+				042FC3482BCE8D2500E0153B /* Sources */,
+				042FC3492BCE8D2500E0153B /* Frameworks */,
+				042FC34A2BCE8D2500E0153B /* Resources */,
+				F4868D00BD2161DD131ED548 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				042FC34E2BCE8D2500E0153B /* PBXTargetDependency */,
+			);
+			name = SynchronizedCaptureUITests;
+			productName = SynchronizedCaptureUITests;
+			productReference = 042FC34C2BCE8D2500E0153B /* SynchronizedCaptureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042FC32A2BCE8D2300E0153B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					042FC3312BCE8D2300E0153B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					042FC3412BCE8D2500E0153B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 042FC3312BCE8D2300E0153B;
+					};
+					042FC34B2BCE8D2500E0153B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 042FC3312BCE8D2300E0153B;
+					};
+				};
+			};
+			buildConfigurationList = 042FC32D2BCE8D2300E0153B /* Build configuration list for PBXProject "SynchronizedCapture" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042FC3292BCE8D2300E0153B;
+			productRefGroup = 042FC3332BCE8D2300E0153B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042FC3312BCE8D2300E0153B /* SynchronizedCapture */,
+				042FC3412BCE8D2500E0153B /* SynchronizedCaptureTests */,
+				042FC34B2BCE8D2500E0153B /* SynchronizedCaptureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042FC3302BCE8D2300E0153B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042FC33D2BCE8D2500E0153B /* Preview Assets.xcassets in Resources */,
+				042FC33A2BCE8D2500E0153B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FC3402BCE8D2500E0153B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FC34A2BCE8D2500E0153B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D404743ABAEACDF0244AFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SynchronizedCapture/Pods-SynchronizedCapture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06F7D24E5494E13C97C4EE2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SynchronizedCapture-SynchronizedCaptureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A487B398457E984549DDC436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SynchronizedCaptureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CBA49F2240F5D098F892D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SynchronizedCapture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4868D00BD2161DD131ED548 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SynchronizedCapture-SynchronizedCaptureUITests/Pods-SynchronizedCapture-SynchronizedCaptureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042FC32E2BCE8D2300E0153B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04848D452BD3542B00106A9C /* ImageView.swift in Sources */,
+				04848D432BD28DAC00106A9C /* CameraController.swift in Sources */,
+				042FC3382BCE8D2300E0153B /* ContentView.swift in Sources */,
+				044B00C42BCF742300DB2136 /* SntpBase.swift in Sources */,
+				042FC3362BCE8D2300E0153B /* SynchronizedCaptureApp.swift in Sources */,
+				044B00C22BCF733D00DB2136 /* Client.swift in Sources */,
+				044B00C82BCFA48F00DB2136 /* ClientInfo.swift in Sources */,
+				044B00C62BCF8E4200DB2136 /* SyncConstants.swift in Sources */,
+				047F870F2BCFF25B0093B5FB /* SntpOffsetResponse.swift in Sources */,
+				044B00C02BCF731F00DB2136 /* Leader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FC33E2BCE8D2500E0153B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042FC3472BCE8D2500E0153B /* SynchronizedCaptureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		042FC3482BCE8D2500E0153B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042FC3512BCE8D2500E0153B /* SynchronizedCaptureUITests.swift in Sources */,
+				042FC3532BCE8D2500E0153B /* SynchronizedCaptureUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		042FC3442BCE8D2500E0153B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042FC3312BCE8D2300E0153B /* SynchronizedCapture */;
+			targetProxy = 042FC3432BCE8D2500E0153B /* PBXContainerItemProxy */;
+		};
+		042FC34E2BCE8D2500E0153B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 042FC3312BCE8D2300E0153B /* SynchronizedCapture */;
+			targetProxy = 042FC34D2BCE8D2500E0153B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		042FC3542BCE8D2500E0153B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		042FC3552BCE8D2500E0153B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042FC3572BCE8D2500E0153B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F04D970A9B864A3E54E3FE5 /* Pods-SynchronizedCapture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SynchronizedCapture/Preview Content\"";
+				DEVELOPMENT_TEAM = 9X5J638DP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SynchronizedCapture/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SynchronizedCapture;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "used to do image capture";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "to send and recv udp message";
+				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "to send and recv udp message";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "save captured frames to photo library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aonegai.SynchronizedCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042FC3582BCE8D2500E0153B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04227A84125A533404B6EA85 /* Pods-SynchronizedCapture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SynchronizedCapture/Preview Content\"";
+				DEVELOPMENT_TEAM = 9X5J638DP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SynchronizedCapture/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SynchronizedCapture;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "used to do image capture";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "to send and recv udp message";
+				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = "to send and recv udp message";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "save captured frames to photo library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aonegai.SynchronizedCapture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		042FC35A2BCE8D2500E0153B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F44C1F45B41FFF5F2693B6 /* Pods-SynchronizedCaptureTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9X5J638DP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aonegai.SynchronizedCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynchronizedCapture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SynchronizedCapture";
+			};
+			name = Debug;
+		};
+		042FC35B2BCE8D2500E0153B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940220BBD715AC8EBF87C4DA /* Pods-SynchronizedCaptureTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9X5J638DP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aonegai.SynchronizedCaptureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SynchronizedCapture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SynchronizedCapture";
+			};
+			name = Release;
+		};
+		042FC35D2BCE8D2500E0153B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C39F21F24D3E3AFCA85BC6E /* Pods-SynchronizedCapture-SynchronizedCaptureUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9X5J638DP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aonegai.SynchronizedCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SynchronizedCapture;
+			};
+			name = Debug;
+		};
+		042FC35E2BCE8D2500E0153B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1E81607846AA792E80A2A8 /* Pods-SynchronizedCapture-SynchronizedCaptureUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9X5J638DP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aonegai.SynchronizedCaptureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SynchronizedCapture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042FC32D2BCE8D2300E0153B /* Build configuration list for PBXProject "SynchronizedCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042FC3542BCE8D2500E0153B /* Debug */,
+				042FC3552BCE8D2500E0153B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042FC3562BCE8D2500E0153B /* Build configuration list for PBXNativeTarget "SynchronizedCapture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042FC3572BCE8D2500E0153B /* Debug */,
+				042FC3582BCE8D2500E0153B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042FC3592BCE8D2500E0153B /* Build configuration list for PBXNativeTarget "SynchronizedCaptureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042FC35A2BCE8D2500E0153B /* Debug */,
+				042FC35B2BCE8D2500E0153B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042FC35C2BCE8D2500E0153B /* Build configuration list for PBXNativeTarget "SynchronizedCaptureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042FC35D2BCE8D2500E0153B /* Debug */,
+				042FC35E2BCE8D2500E0153B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042FC32A2BCE8D2300E0153B /* Project object */;
+}
